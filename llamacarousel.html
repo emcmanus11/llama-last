@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="bootstrap-3.0.0/assets/ico/favicon.png">
+    <title>Carousel Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap-3.0.0/dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="bootstrap-3.0.0/assets/js/html5shiv.js"></script>
+      <script src="bootstrap-3.0.0/assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="bootstrap-3.0.0/examples/carousel/carousel.css" rel="stylesheet">
+    <link href="bootstrap-3.0.0/examples/carousel/llama.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Llamas Galore</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About Llamas</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="llama-celebrity.html">Celebrities</a></li>
+                    <li><a href="llama-zombies.html">Zombies</a></li>
+                    <li><a href="llama-baking.html">Baking</a></li>
+                    <!--<li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>-->
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="llama-mama.jpg" data-src="llama-mama.jpg" alt="Llama mama">
+          <!--"holder.js/100%x500/auto/#777:#7a7a7a/text:First slide" -->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>OMG! Llama mama drama!</h1>
+              <p>Get the scoop on your favorite celebrity llamas</p>
+              <p><a class="btn btn-large btn-primary" href="llama-celebrity.html">Click here to find out what!</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="llama-del-rey.jpg" data-src="llama-del-rey.jpg/" alt="Llama del Rey">
+          <!--src="../llama-mama.jpg" data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Second slide"-->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>More celebrity llama drama.</h1>
+              <p>What is Llama Del Rey up to?</p>
+              <p><a class="btn btn-large btn-primary" href="llama-celebrity.html#llama-del-rey">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="zombie-llama.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Zombies, llamas, and you, OH MY!</h1>
+              <p>Llama- or alpaco-lypse? Are you prepared?</p>
+              <p><a class="btn btn-large btn-primary" href="llama-zombie.html">Prepare yourself</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="zombie-llama2.jpg" alt="Zombie llama">
+          <h2>Zombie alpacalypse survival tips</h2>
+          <p>Are you prepared for the zombie takeover? Do you own a llama? If the answer to either of these questions is "no", read this.</p>
+          <p><a class="btn btn-default" href="llama-zombie.html">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="paullama-deen.jpg" alt="Paullama Deen">
+          <h2>Baking with Paullama Deen</h2>
+          <p>Check out the latest recipes and cooking tips from Paullama Deen.</p>
+          <p><a class="btn btn-default" href="llama-baking.html">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="baby-llamas.jpg" alt="Generic placeholder image">
+          <h2>Llama Factoids</h2>
+          <p>Learn more llama facts, including historical information about Llamadeus Mozart and others!</p>
+          <p><a class="btn btn-default" href="llama-facts.html">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Llamanardo DiCaprio at the Oscars. <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead"><a href="llama-celebrity.html#llamanardo">Click here</a> to see DiCaprio looking fine at the Oscars.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="llamanardo-dicaprio.jpg" alt="Llamanardo DiCaprio">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="llamanda-bynes.jpg" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Llamanda Bynes spotted with new beau. <span class="text-muted"><a href="llama-celebrity.html#llamanda">See</a> exclusive photos of the new couple.</span></h2>
+          <p class="lead">The couple was seen at a hay field chewing cud after a day of trekking up hills.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Llama day cakes.<span class="text-muted">Yum.</span></h2>
+          <p class="lead">Check <a href="llama-baking.html#llama-cake">this</a> out for the recipe.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="llama-cake.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bootstrap-3.0.0/assets/js/jquery.js"></script>
+    <script src="bootstrap-3.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap-3.0.0/assets/js/holder.js"></script>
+  </body>
+</html>
