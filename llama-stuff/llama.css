@@ -42,14 +42,16 @@
 	display:inline-block;
 	vertical-align:middle;
 	text-align:center;
+	height:500px;
+	width:350px;
 	
 }
 .llama-recipes-bar img{
-	height:300px;
-	width:300px;
-	margin:10px;
+	height:200px;
+	width:200px;
+	margin:5px;
 	padding:5px;
-	border-width:10px;
+	border-width:5px;
 	border-color:transparent;
 	border-style:solid;
 }
