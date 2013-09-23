@@ -53,6 +53,6 @@
 	border-color:transparent;
 	border-style:solid;
 }
-.llama-recipes-bar img:hover{
+.llama-recipes-bar hover{
 	border-color:orange;
 }
