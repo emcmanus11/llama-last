@@ -57,9 +57,11 @@
 }
 
 .llama-bar{
-	height:50%;
-	margin-bottom:25%;
+	height:70%;
+	margin-bottom:12%;
+	margin-top:12%;
 	background-color:orange;
+	border-radius:15px;
 }
 
 .recipe-format{
