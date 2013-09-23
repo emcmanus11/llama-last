@@ -71,6 +71,7 @@
 	border-color:gray;
 	border-style:solid;
 	top:0;
+	border-radius:15px;
 }
 .baking-title{
 	background-color:DarkGray;
