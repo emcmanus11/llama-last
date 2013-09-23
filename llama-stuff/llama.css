@@ -17,3 +17,10 @@
 	vertical-align:middle;
 	display:inline-block;
 }
+
+
+.llama-carousel img{
+	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+}
