@@ -37,3 +37,15 @@
 .llama-test{
 	color:aqua;
 }
+
+.llama-recipes-bar{
+	display:inline-block;
+	height:120px;
+	width:120px;
+	border-width:10px;
+	border-color:transparent;
+	border-style:solid;
+}
+.llama-recipes-bar:hover{
+	border-color:orange;
+}
