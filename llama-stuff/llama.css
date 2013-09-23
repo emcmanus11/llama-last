@@ -61,7 +61,8 @@
 .llama-bar{
 	height:80%;
 	margin-bottom:15%;
-	background-color:orange;
+	border-width:5px;
+	border-color:gray;
 	border-radius:15px;
 	padding-top:0;
 	padding-bottom:10px;
