@@ -1,0 +1,22 @@
+.front-llama-image{
+	max-width: 100px;
+	width: 100px;
+
+}
+
+.llama-baking{
+
+}
+
+.llama-baking img{
+	border-width: 5px;
+	border-style: solid;
+	border-color: brown;
+}
+
+.llama-celebrity img{
+	max-height:45%;
+	max-width: 45%;
+	height: 45%;
+	width: 45%;
+}
