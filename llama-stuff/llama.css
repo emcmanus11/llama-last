@@ -44,7 +44,7 @@
 	text-align:center;
 	
 }
-.llama-recipes-bar ul > li > a > img{
+.llama-recipes-bar img{
 	height:150px;
 	width:150px;
 	margin:10px;
@@ -53,6 +53,6 @@
 	border-color:transparent;
 	border-style:solid;
 }
-.llama-recipes-bar ul > li > a > img:hover{
+.llama-recipes-bar img:hover{
 	border-color:orange;
 }
