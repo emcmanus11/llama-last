@@ -10,7 +10,10 @@
 }
 
 .celeb img{
-	height:120px;
-	width:120px;
+	min-height:120px;
+	min-width:120px;
+	max-height:350px;
+	max-width:350px;
 	vertical-align:middle;
+	display:inline-block;
 }
