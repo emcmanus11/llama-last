@@ -40,16 +40,16 @@
 
 .llama-recipes-bar{
 	display:inline-block;
+	
+}
+.llama-recipes-bar > a > img{
+	height:120px;
+	width:120px;
 	margin:20px;
 	padding:5px;
 	border-width:10px;
 	border-color:yellow;
 	border-style:solid;
-}
-.llama-recipes-bar > a > img{
-	height:120px;
-	width:120px;
-	
 }
 .llama-recipes-bar:hover{
 	border-color:orange;
