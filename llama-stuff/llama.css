@@ -64,6 +64,8 @@
 	border-color:gray;
 	border-radius:15px;
 	padding:10px;
+	top:30%;
+	bottom:20px;
 }
 
 .recipe-format{
@@ -79,6 +81,6 @@
 	padding:15px;
 	border-radius:15px;
 	width:100%;
-	margin:0;
+	margin:10px;
 	
 }
