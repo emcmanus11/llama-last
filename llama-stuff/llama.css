@@ -47,12 +47,11 @@
 	
 }
 .llama-recipes-bar img{
-	height:175px;
-	width:175px;
+	height:180px;
+	width:180px;
 	margin:5px;
-	padding:5px;
 	border-width:5px;
-	border-color:transparent;
+	border-color:yellow;
 	border-style:solid;
 	border-radius:15px;
 	padding:5px;
