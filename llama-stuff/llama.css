@@ -40,6 +40,8 @@
 
 .llama-recipes-bar{
 	display:inline-block;
+	vertical-align:middle;
+	text-align:center;
 	
 }
 .llama-recipes-bar > a > img{
@@ -48,6 +50,7 @@
 	margin:10px;
 	padding:5px;
 	border-width:10px;
+	border-color:transparent;
 	border-style:solid;
 }
 .llama-recipes-bar > a > img:hover{
