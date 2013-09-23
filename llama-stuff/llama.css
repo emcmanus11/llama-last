@@ -41,7 +41,7 @@
 .llama-recipes-bar{
 	display:inline-block;
 }
-.llama-recipes-bar img{
+.llama-recipes-bar > a > img{
 	height:120px;
 	width:120px;
 	border-width:10px;
