@@ -45,14 +45,19 @@
 	
 }
 .llama-recipes-bar img{
-	height:150px;
-	width:150px;
+	height:300px;
+	width:300px;
 	margin:10px;
 	padding:5px;
 	border-width:10px;
 	border-color:transparent;
 	border-style:solid;
 }
-.llama-recipes-bar hover{
-	border-color:orange;
+
+.llama-bar{
+	
+}
+
+.recipe-format{
+	
 }
