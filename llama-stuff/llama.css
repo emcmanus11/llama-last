@@ -60,13 +60,10 @@
 
 .llama-bar{
 	height:75%;
-	margin-bottom:15%;
+	margin-bottom:25%;
 	background-color:orange;
 	border-radius:15px;
-	padding-bottom:20px;
-	padding-right:20px;
-	padding-left:20px;
-	padding-top:0;
+	padding:0;
 }
 
 .recipe-format{
@@ -81,4 +78,6 @@
 	padding:15px;
 	border-radius:15px;
 	width:100%;
+	margin:0;
+	
 }
