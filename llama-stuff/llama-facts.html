@@ -103,7 +103,8 @@
       $(function() {
       	$("#random-llama-button").click(function() {
       		$(".llama-facts-list").hide();
-      		var random = Math.floor(Math.random()*12);
+      		var random = Math.floor(Math.random()*12)+1;
+      		alert(random);
       		$("#fact"+random).show();
       	});
       });
