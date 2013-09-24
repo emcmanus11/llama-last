@@ -19,12 +19,9 @@
 }
 
 .llama-carousel img{
-	background-size: cover;
-    	background-repeat: no-repeat;
-    	background-position: 50% 50%;
-    
-	/*height:100%;
+	max-width:500px;
 	width:500px;
+	/*height:100%;
 	bottom:0;
 	top:50px;
 	display: block;
