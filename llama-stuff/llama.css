@@ -90,9 +90,8 @@
 }
 
 .celeb-back{
-	vertical-align:middle
+	vertical-align:middle;
 	background-color:white;
-	border: 1px solid DarkGray;
-  	outline: 1px solid pink;
-  	border-radius:15px;
+	border: 10px solid DarkGray;
+  	outline: 10px solid pink;
 }
