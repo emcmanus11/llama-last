@@ -5,7 +5,15 @@
 }
 
 .llama-facts-list{
+	vertical-align:middle;
+	font-weight:bold;
+	text-size:50px;
+	border-width:10px;
+	border-color:aqua;
+	border-radius:15px;
+	padding:10px;
 	color:blue;
+	display:none;
 }
 
 .llama-baking img{
