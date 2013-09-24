@@ -71,13 +71,13 @@
             <img id="llama-img-1" src="" class="llama-pic" style="display:none">
           </div>
           <div class="col-md-4">
-            <div id="fact1">hi</div>
+            <div id="fact1">CLICK THE BUTTON FOR LLAMA FUN</div>
           </div>
           <div class="col-md-4">
             <img id="llama-img-2" src="" class="llama-pic" style="display:none">
           </div>
         </div>
-        <button id="random-llama-button" type="button" class="btn btn-primary btn-lg btn-block">Click for llama facts and jokes</button>
+        <button id="random-llama-button" type="button" class="btn btn-primary btn-lg btn-block">Click here</button>
       </div>
 
     </div><!-- /.container -->
@@ -106,13 +106,13 @@
       $(function() {
       	$("#random-llama-button").click(function() {
       		//$(".llama-facts-list").hide();
-      		var random = Math.floor(Math.random()*facts_len)+1;
+      		var random = Math.floor(Math.random()*facts_len);
       		$("#fact1").show();
       		$("#fact1").empty();
       		$("#fact1").append("<p>"+facts[random]+"</p>");
       		
       		//$("#fact1").html("<p>"facts[random]"</p>");
-      		var img_random = Math.floor(Math.random()*img_len)+1;
+      		var img_random = Math.floor(Math.random()*img_len);
       		$(".llama-pic").show();
       		$(".llama-pic").attr("src", images[img_random]+".jpg");
       	});
