@@ -64,7 +64,7 @@
     <!-- Wrap the rest of the page in another container to center all the content. -->
      <div class="container">
 
-      <div class="starter-template">
+      <div class="starter-template" style="vertical-align:middle">
         <h1>Llama fun</h1>
         <div id="fact1" class="llama-facts-list">Llamadeus Mozart's name has 8 words (Johannes Chrysostomus Wolfgang Theophillus Llamadeus Gottlieb Sigismundus Mozart)</div>
         <div id="fact2" class="llama-facts-list">A father with three obnoxious children came to the llama ranch. The ranch foreman and the llamas couldn’t believe how badly these children were behaving. When the father told the ranch foreman that he wanted to get some llamas for his children, the ranch foreman said, “I’m very sorry sir, but we don’t do trades.”</div>
@@ -104,7 +104,6 @@
       	$("#random-llama-button").click(function() {
       		$(".llama-facts-list").hide();
       		var random = Math.floor(Math.random()*12)+1;
-      		alert(random);
       		$("#fact"+random).show();
       	});
       });
