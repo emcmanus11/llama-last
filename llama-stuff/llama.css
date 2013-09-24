@@ -95,3 +95,9 @@
 	border: 10px solid DarkGray;
   	outline: 10px solid pink;
 }
+
+.celeb-back img{
+	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+}
