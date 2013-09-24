@@ -107,8 +107,7 @@
       	$("#random-llama-button").click(function() {
       		//$(".llama-facts-list").hide();
       		var random = Math.floor(Math.random()*facts_len)+1;
-      		$(".llama-facts-list").empty();
-      		$(".llama-facts-list").append("<p>"+facts[random]+"</p>");
+      		$(".llama-facts-list").text(facts[random]);
       		var img_random = Math.floor(Math.random()*img_len)+1;
       		$(".llama-pic").attr("src", images[img_random]+".jpg");
       	});
