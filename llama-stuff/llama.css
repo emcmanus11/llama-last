@@ -91,4 +91,7 @@
 
 .celeb-back{
 	background-color:white;
+	border-radius:15px;
+	border: 1px solid DarkGray;
+  	outline: 1px solid pink;
 }
