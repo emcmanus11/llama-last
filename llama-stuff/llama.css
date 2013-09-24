@@ -1,0 +1,140 @@
+.front-llama-image{
+	max-width: 100px;
+	width: 100px;
+}
+
+.llama-pic{
+	height:250px;
+	width:250px;
+	margin-left: auto ;
+	margin-right: auto ;
+	border:transparent;
+}
+
+.llama-facts-list{
+	height:200px;
+	width:400px;
+	margin-left: auto ;
+	margin-right: auto ;
+	text-align:center;
+	border-width:10px;
+	border-style:solid;
+	border-color:aqua;
+	border-radius:15px;
+	padding:10px;
+	color:blue;
+	font-weight:bold;
+	text-size:50px;
+	margin:20px;
+}
+
+.llama-baking img{
+	height:120px;
+	width:120px;
+}
+
+.celeb img{
+	min-height:120px;
+	min-width:120px;
+	max-height:350px;
+	max-width:350px;
+	vertical-align:middle;
+	display:inline-block;
+}
+
+.llama-carousel img{
+	max-width:500px;
+	width:500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/*height:100%;
+	bottom:0;
+	top:50px;
+	*/
+	
+}
+
+.llama-circle-pic img{
+	height:140px;
+	width:140px;
+}
+
+.llama-test{
+	color:aqua;
+}
+
+.llama-recipes-bar{
+	display:inline-block;
+	vertical-align:middle;
+	text-align:center;
+	/*height:500px;
+	width:350px;*/
+	
+}
+.llama-recipes-bar img{
+	height:180px;
+	width:180px;
+	margin:5px;
+	border-width:5px;
+	border-color:white;
+	border-style:solid;
+	border-radius:15px;
+	padding:5px;
+}
+
+.llama-bar{
+	height:80%;
+	min-height:80%;
+	margin-bottom:15%;
+	background-color:LightGray;
+	border-width:20px;
+	border-color:DarkGray;
+	border-radius:15px;
+	padding-top:0;
+	padding-bottom:10px;
+}
+
+.recipe-format{
+	border-width:10px;
+	border-color:gray;
+	border-style:solid;
+	top:0;
+	border-radius:15px;
+}
+.baking-title{
+	background-color:DarkGray;
+	color:white;
+	padding:15px;
+	border-radius:15px;
+	width:100%;
+	margin:0;
+}
+
+.celeb-back{
+	vertical-align:middle;
+	background-color:white;
+	font-weight:bold;
+	padding:15px;
+	margin:5px;
+	font-size:20px;
+	border: 10px solid #990033;
+  	border-radius:15px;
+}
+
+.celeb-back img{
+	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+}
+
+.zombie-stuff img{
+	max-height:500px;
+	max-width:500px;
+}
+
+.zombie-description{
+	color:maroon;
+	text-size:45px;
+	font-weight:bolder;
+}

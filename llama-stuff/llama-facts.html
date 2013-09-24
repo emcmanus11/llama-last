@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../bootstrap-3.0.0/assets/ico/favicon.png">
+    <title>Carousel Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../bootstrap-3.0.0/dist-hi/css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="bootstrap-3.0.0/assets/js/html5shiv.js"></script>
+      <script src="bootstrap-3.0.0/assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="../bootstrap-3.0.0/examples/carousel/carousel.css" rel="stylesheet">
+    <link href="llama.css" rel="stylesheet" type="text/css" >
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="llamacarousel.html">Llamas Galore</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="llamacarousel.html">Home</a></li>
+                <li><a href="#">About Llamas</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="llama-celebrity.html">Celebrities</a></li>
+                    <li><a href="llama-zombie.html">Zombies</a></li>
+                    <li><a href="llama-baking.html">Baking</a></li>
+                    <!--<li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>-->
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+     <div class="container">
+
+      <div class="starter-template" >
+        <h1>Llama fun</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <img id="llama-img-1" src="" class="llama-pic" style="display:none">
+          </div>
+          <div class="col-md-4">
+            <div id="fact1">CLICK THE BUTTON FOR LLAMA FUN</div>
+          </div>
+          <div class="col-md-4">
+            <img id="llama-img-2" src="" class="llama-pic" style="display:none">
+          </div>
+        </div>
+        <button id="random-llama-button" type="button" class="btn btn-primary btn-lg btn-block">Click here</button>
+      </div>
+
+    </div><!-- /.container -->
+    <div class="container marketing">
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../bootstrap-3.0.0/assets/js/jquery.js"></script>
+    <script src="../bootstrap-3.0.0/dist-hi/js/bootstrap.min.js"></script>
+    <script src="../bootstrap-3.0.0/assets/js/holder.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+      facts = ["Llamadeus Mozart's name has 8 words (Johannes Chrysostomus Wolfgang Theophillus Llamadeus Gottlieb Sigismundus Mozart)","A father with three obnoxious children came to the llama ranch. The ranch foreman and the llamas couldn’t believe how badly these children were behaving. When the father told the ranch foreman that he wanted to get some llamas for his children, the ranch foreman said, \"I’m very sorry sir, but we don’t do trades.\"","Q: What do you get if you stand between two llamas?<br>A: llamanated","Q: What did they llama say to the blade of grass?<br>A: Nice gnawing you!","Yo llama's teeth are so yellow, when she smiles the traffic slows down.","Yo llama is so big, she has her own moon to orbit her","Q. What is a llama's favorite drink?<br>A. Llama-nade.","Llamas are vegetarians and have efficient digestive systems.","Llamas don't bite. They spit when they're agitated, but that's mostly at each other.","Q. What did the llama say to his friend who asked him for a favor?<br>A. No prob-llama","Llamas are very social animals and live together in herds","What do you call a very fast llama?<br>A Llamagini"];
+      facts_len = facts.length;
+      images = ["Army-Llama","baby-llamas","breaking-baad","cookies-llamas","llama-cake","key-llama-pie","llama-del-rey","llama-hay","llama-face","llama-mama","llamanardo","llamanda-bynes","llama-on-grill","llama-pancake","mountain-llama","paullama-deen","zombie-llama","zombie-llama2"];
+      img_len = images.length;
+      $(function() {
+      	$("#random-llama-button").click(function() {
+      		//$(".llama-facts-list").hide();
+      		var random = Math.floor(Math.random()*facts_len);
+      		$("#fact1").show();
+      		$("#fact1").empty();
+      		$("#fact1").append("<p>"+facts[random]+"</p>");
+      		
+      		//$("#fact1").html("<p>"facts[random]"</p>");
+      		var img_random = Math.floor(Math.random()*img_len);
+      		$(".llama-pic").show();
+      		$(".llama-pic").attr("src", images[img_random]+".jpg");
+      	});
+      });
+    </script>
+  </body>
+</html>
