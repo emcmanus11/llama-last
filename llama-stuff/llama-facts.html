@@ -71,7 +71,7 @@
             <img id="llama-img-1" src="" class="llama-pic" style="display:none">
           </div>
           <div class="col-md-4">
-            <div id="fact1" style="display:none"></div>
+            <div id="fact1" style="display:none">hi</div>
           </div>
           <div class="col-md-4">
             <img id="llama-img-2" src="" class="llama-pic" style="display:none">
@@ -107,7 +107,8 @@
       	$("#random-llama-button").click(function() {
       		//$(".llama-facts-list").hide();
       		var random = Math.floor(Math.random()*facts_len)+1;
-      		$("#fact1").text(facts[random]);
+      		$("#fact1").show();
+      		$("#fact1").html("<p>"facts[random]"</p>");
       		var img_random = Math.floor(Math.random()*img_len)+1;
       		$(".llama-pic").show();
       		$(".llama-pic").attr("src", images[img_random]+".jpg");
