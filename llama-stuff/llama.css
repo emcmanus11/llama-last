@@ -1,12 +1,13 @@
 .front-llama-image{
 	max-width: 100px;
 	width: 100px;
-	
 }
 
 .llama-pic{
-	height:150px;
-	width:150px;
+	height:250px;
+	width:250px;
+	margin-left: auto ;
+	margin-right: auto ;
 	border:transparent;
 }
 
