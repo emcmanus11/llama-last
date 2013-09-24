@@ -105,3 +105,12 @@
     	margin-left: auto;
     	margin-right: auto;
 }
+
+.zombie-stuff{
+	color:burgundy;
+}
+
+.zombie-stuff img{
+	max-height:500px;
+	max-width:500px;
+}
