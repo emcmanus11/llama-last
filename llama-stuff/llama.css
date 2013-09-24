@@ -92,6 +92,8 @@
 .celeb-back{
 	vertical-align:middle;
 	background-color:white;
+	font-weight:bold;
+	font-size:20px;
 	border: 10px solid DarkGray;
   	outline: 10px solid pink;
 }
