@@ -65,16 +65,20 @@
      <div class="container">
 
       <div class="starter-template">
-        <h1>Llama facts</h1>
-        <div id="fact1"></div>
-        <div id="fact1"></div>
-        <div id="fact1"></div>
-        <div id="fact1"></div>
-        <div id="fact1"></div>
-        <div id="fact1"></div>
-        <div id="fact1"></div>
-      </div>
-      <div>
+        <h1>Llama fun</h1>
+        <div id="fact1" class="llama-facts-list">Llamadeus Mozart's name has 8 words (Johannes Chrysostomus Wolfgang Theophillus Llamadeus Gottlieb Sigismundus Mozart)</div>
+        <div id="fact2" class="llama-facts-list">A father with three obnoxious children came to the llama ranch. The ranch foreman and the llamas couldn’t believe how badly these children were behaving. When the father told the ranch foreman that he wanted to get some llamas for his children, the ranch foreman said, “I’m very sorry sir, but we don’t do trades.”</div>
+        <div id="fact3" class="llama-facts-list">Q: What do you get if you stand between two llamas?<br>A: llamanated</div>
+        <div id="fact4" class="llama-facts-list">Q: What did they llama say to the blade of grass?<br>A: Nice gnawing you!</div>
+        <div id="fact5" class="llama-facts-list">Yo llama's teeth are so yellow, when she smiles the traffic slows down.</div>
+        <div id="fact6" class="llama-facts-list">Yo llama is so big, she has her own moon to orbit her</div>
+        <div id="fact7" class="llama-facts-list">Q. What is a llama's favorite drink?<br>A. Llama-nade.</div>
+        <div id="fact8" class="llama-facts-list">Llamas are vegetarians and have efficient digestive systems.</div>
+        <div id="fact9" class="llama-facts-list">Llamas don't bite. They spit when they're agitated, but that's mostly at each other.</div>
+        <div id="fact10" class="llama-facts-list">Q. What did the llama say to his friend who asked him for a favor?<br>A. No prob-llama</div>
+        <div id="fact11" class="llama-facts-list">Llamas are very social animals and live together in herds</div>
+        <div id="fact12" class="llama-facts-list">What do you call a very fast llama?<br>A Llamagini</div>
+        <button id="random-llama-button" type="button" class="btn btn-primary btn-lg btn-block">Click for llama facts and jokes</button>
       </div>
 
     </div><!-- /.container -->
@@ -97,10 +101,12 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript">
       $(function() {
-				$("button").click(function() {
-			  		
-			   });
-			});
+      	$("#random-llama-button").click(function() {
+      		$(".llama-facts-list").hide();
+      		var random = Math.floor(Math.random()*12);
+      		$("#fact"+random).show();
+      	});
+      });
     </script>
   </body>
 </html>
